@@ -1,11 +1,11 @@
-package xml // import "github.com/tdewolff/minify/xml"
+package xml // import "github.com/AirGateway/minify/xml"
 
 import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/xml"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse/xml"
+	"github.com/AirGateway/test"
 )
 
 func TestBuffer(t *testing.T) {

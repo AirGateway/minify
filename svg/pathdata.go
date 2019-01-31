@@ -3,9 +3,9 @@ package svg
 import (
 	strconvStdlib "strconv"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/strconv"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/strconv"
 )
 
 type PathData struct {

@@ -1,14 +1,14 @@
 // Package html minifies HTML5 following the specifications at http://www.w3.org/TR/html5/syntax.html.
-package html // import "github.com/tdewolff/minify/html"
+package html // import "github.com/AirGateway/minify/html"
 
 import (
 	"bytes"
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
-	"github.com/tdewolff/parse/v2/html"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
+	"github.com/AirGateway/parse/html"
 )
 
 var (

@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/tdewolff/minify/v2/html"
+	"github.com/AirGateway/minify/html"
 )
 
 var htmlSamples = []string{

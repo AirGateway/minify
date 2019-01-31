@@ -1,6 +1,6 @@
-package svg // import "github.com/tdewolff/minify/svg"
+package svg // import "github.com/AirGateway/minify/svg"
 
-import "github.com/tdewolff/parse/v2/svg"
+import "github.com/AirGateway/parse/svg"
 
 var colorAttrMap = map[svg.Hash]bool{
 	svg.Color:          true,

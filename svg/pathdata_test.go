@@ -1,9 +1,9 @@
-package svg // import "github.com/tdewolff/minify/svg"
+package svg // import "github.com/AirGateway/minify/svg"
 
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestPathData(t *testing.T) {

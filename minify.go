@@ -1,5 +1,5 @@
 // Package minify relates MIME type to minifiers. Several minifiers are provided in the subpackages.
-package minify // import "github.com/tdewolff/minify"
+package minify // import "github.com/AirGateway/minify"
 
 import (
 	"errors"
@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
 )
 
 // ErrNotExist is returned when no minifier exists for a given mimetype.

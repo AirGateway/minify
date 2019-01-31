@@ -1,6 +1,6 @@
-package html // import "github.com/tdewolff/minify/html"
+package html // import "github.com/AirGateway/minify/html"
 
-import "github.com/tdewolff/parse/v2/html"
+import "github.com/AirGateway/parse/html"
 
 type traits uint8
 

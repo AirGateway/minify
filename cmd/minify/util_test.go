@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func testOpener(filename string) (io.ReadCloser, error) {

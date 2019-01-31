@@ -1,17 +1,17 @@
 // Package svg minifies SVG1.1 following the specifications at http://www.w3.org/TR/SVG11/.
-package svg // import "github.com/tdewolff/minify/svg"
+package svg // import "github.com/AirGateway/minify/svg"
 
 import (
 	"bytes"
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	minifyCSS "github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
-	"github.com/tdewolff/parse/v2/css"
-	"github.com/tdewolff/parse/v2/svg"
-	"github.com/tdewolff/parse/v2/xml"
+	"github.com/AirGateway/minify"
+	minifyCSS "github.com/AirGateway/minify/css"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
+	"github.com/AirGateway/parse/css"
+	"github.com/AirGateway/parse/svg"
+	"github.com/AirGateway/parse/xml"
 )
 
 var (

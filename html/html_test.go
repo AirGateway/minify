@@ -1,4 +1,4 @@
-package html // import "github.com/tdewolff/minify/html"
+package html // import "github.com/AirGateway/minify/html"
 
 import (
 	"bytes"
@@ -10,13 +10,13 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/minify/css"
+	"github.com/AirGateway/minify/js"
+	"github.com/AirGateway/minify/json"
+	"github.com/AirGateway/minify/svg"
+	"github.com/AirGateway/minify/xml"
+	"github.com/AirGateway/test"
 )
 
 func TestHTML(t *testing.T) {

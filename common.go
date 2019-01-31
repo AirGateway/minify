@@ -1,12 +1,12 @@
-package minify // import "github.com/tdewolff/minify"
+package minify // import "github.com/AirGateway/minify"
 
 import (
 	"bytes"
 	"encoding/base64"
 	"net/url"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/strconv"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/strconv"
 )
 
 // Epsilon is the closest number to zero that is not considered to be zero.

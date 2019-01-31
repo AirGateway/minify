@@ -1,11 +1,11 @@
 // Package json minifies JSON following the specifications at http://json.org/.
-package json // import "github.com/tdewolff/minify/json"
+package json // import "github.com/AirGateway/minify/json"
 
 import (
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2/json"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse/json"
 )
 
 var (

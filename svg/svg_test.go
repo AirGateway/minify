@@ -1,4 +1,4 @@
-package svg // import "github.com/tdewolff/minify/svg"
+package svg // import "github.com/AirGateway/minify/svg"
 
 import (
 	"bytes"
@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/minify/css"
+	"github.com/AirGateway/test"
 )
 
 func TestSVG(t *testing.T) {

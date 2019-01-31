@@ -1,11 +1,11 @@
-package html // import "github.com/tdewolff/minify/html"
+package html // import "github.com/AirGateway/minify/html"
 
 import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/html"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse/html"
+	"github.com/AirGateway/test"
 )
 
 func TestBuffer(t *testing.T) {

@@ -1,12 +1,12 @@
 // Package xml minifies XML1.0 following the specifications at http://www.w3.org/TR/xml/.
-package xml // import "github.com/tdewolff/minify/xml"
+package xml // import "github.com/AirGateway/minify/xml"
 
 import (
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/xml"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/xml"
 )
 
 var (

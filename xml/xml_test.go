@@ -1,4 +1,4 @@
-package xml // import "github.com/tdewolff/minify/xml"
+package xml // import "github.com/AirGateway/minify/xml"
 
 import (
 	"bytes"
@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/test"
 )
 
 func TestXML(t *testing.T) {

@@ -1,4 +1,4 @@
-# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/tdewolff/minify.svg?branch=master)](https://travis-ci.org/tdewolff/minify) [![GoDoc](http://godoc.org/github.com/tdewolff/minify?status.svg)](http://godoc.org/github.com/tdewolff/minify) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/minify/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/minify?branch=master) [![Join the chat at https://gitter.im/tdewolff/minify](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tdewolff/minify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Minify <a name="minify"></a> [![Build Status](https://travis-ci.org/AirGateway/minify.svg?branch=master)](https://travis-ci.org/AirGateway/minify) [![GoDoc](http://godoc.org/github.com/AirGateway/minify?status.svg)](http://godoc.org/github.com/AirGateway/minify) [![Coverage Status](https://coveralls.io/repos/github/AirGateway/minify/badge.svg?branch=master)](https://coveralls.io/github/AirGateway/minify?branch=master) [![Join the chat at https://gitter.im/AirGateway/minify](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AirGateway/minify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ***BE AWARE: YOU NEED GO 1.9.7+, 1.10.3+, 1.11 to run the latest release!!!***
 
@@ -8,9 +8,9 @@ If you cannot upgrade Go, please pin to **minify@v2.3.6** and **parse@v2.3.4**
 
 **[Online demo](https://go.tacodewolff.nl/minify) if you need to minify files *now*.**
 
-**[Command line tool](https://github.com/tdewolff/minify/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
+**[Command line tool](https://github.com/AirGateway/minify/tree/master/cmd/minify) that minifies concurrently and supports watching file changes.**
 
-**[All releases](https://github.com/tdewolff/minify/releases) for various platforms.**
+**[All releases](https://github.com/AirGateway/minify/releases) for various platforms.**
 
 ---
 
@@ -78,18 +78,18 @@ This minifier proves to be that fast and extensive minifier that can handle HTML
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/minify/v2
+	go get -u github.com/AirGateway/minify
 
 or add the following imports and run the project with `go get`
 ``` go
 import (
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/html"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/minify/css"
+	"github.com/AirGateway/minify/html"
+	"github.com/AirGateway/minify/js"
+	"github.com/AirGateway/minify/json"
+	"github.com/AirGateway/minify/svg"
+	"github.com/AirGateway/minify/xml"
 )
 ```
 
@@ -97,7 +97,7 @@ import (
 There is no guarantee for absolute stability, but I take issues and bugs seriously and don't take API changes lightly. The library will be maintained in a compatible way unless vital bugs prevent me from doing so. There has been one API change after v1 which added options support and I took the opportunity to push through some more API clean up as well. There are no plans whatsoever for future API changes.
 
 ## Testing
-For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/tdewolff/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/tdewolff/minify/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/tdewolff/minify/issues)!
+For all subpackages and the imported `parse` package, test coverage of 100% is pursued. Besides full coverage, the minifiers are [fuzz tested](https://github.com/AirGateway/fuzz) using [github.com/dvyukov/go-fuzz](http://www.github.com/dvyukov/go-fuzz), see [the wiki](https://github.com/AirGateway/minify/wiki) for the most important bugs found by fuzz testing. These tests ensure that everything works as intended and that the code does not crash (whatever the input). If you still encounter a bug, please file a [bug report](https://github.com/AirGateway/minify/issues)!
 
 ## Performance
 The benchmarks directory contains a number of standardized samples used to compare performance between changes. To give an indication of the speed of this library, I've ran the tests on my Thinkpad T460 (i5-6300U quad-core 2.4GHz running Arch Linux) using Go 1.9.2.
@@ -414,13 +414,13 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/minify/v2/css"
-	"github.com/tdewolff/minify/v2/html"
-	"github.com/tdewolff/minify/v2/js"
-	"github.com/tdewolff/minify/v2/json"
-	"github.com/tdewolff/minify/v2/svg"
-	"github.com/tdewolff/minify/v2/xml"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/minify/css"
+	"github.com/AirGateway/minify/html"
+	"github.com/AirGateway/minify/js"
+	"github.com/AirGateway/minify/json"
+	"github.com/AirGateway/minify/svg"
+	"github.com/AirGateway/minify/xml"
 )
 
 func main() {
@@ -453,7 +453,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/tdewolff/minify/v2"
+	"github.com/AirGateway/minify"
 )
 
 func main() {

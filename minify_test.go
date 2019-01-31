@@ -1,4 +1,4 @@
-package minify // import "github.com/tdewolff/minify"
+package minify // import "github.com/AirGateway/minify"
 
 import (
 	"bufio"
@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 var errDummy = errors.New("dummy error")

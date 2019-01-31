@@ -1,4 +1,4 @@
-package css // import "github.com/tdewolff/minify/css"
+package css // import "github.com/AirGateway/minify/css"
 
 import (
 	"bytes"
@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2/css"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse/css"
+	"github.com/AirGateway/test"
 )
 
 func TestCSS(t *testing.T) {

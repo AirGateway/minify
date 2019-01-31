@@ -1,4 +1,4 @@
-package minify // import "github.com/tdewolff/minify"
+package minify // import "github.com/AirGateway/minify"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestMediatype(t *testing.T) {

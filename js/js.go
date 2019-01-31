@@ -1,12 +1,12 @@
 // Package js minifies ECMAScript5.1 following the specifications at http://www.ecma-international.org/ecma-262/5.1/.
-package js // import "github.com/tdewolff/minify/js"
+package js // import "github.com/AirGateway/minify/js"
 
 import (
 	"io"
 
-	"github.com/tdewolff/minify/v2"
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/js"
+	"github.com/AirGateway/minify"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/js"
 )
 
 var (

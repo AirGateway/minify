@@ -1,13 +1,13 @@
-package svg // import "github.com/tdewolff/minify/svg"
+package svg // import "github.com/AirGateway/minify/svg"
 
 import (
 	"bytes"
 	"strconv"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/svg"
-	"github.com/tdewolff/parse/v2/xml"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse/svg"
+	"github.com/AirGateway/parse/xml"
+	"github.com/AirGateway/test"
 )
 
 func TestBuffer(t *testing.T) {
